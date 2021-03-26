@@ -1,12 +1,3 @@
-'''
-@Author: your name
-@Date: 2020-07-18 17:33:35
-@LastEditTime: 2020-07-18 17:33:53
-@LastEditors: Please set LastEditors
-@Description: In User Settings Edit
-@FilePath: \SR\srdata.py
-'''
-
 import numpy as np
 
 np.random.seed(666)
