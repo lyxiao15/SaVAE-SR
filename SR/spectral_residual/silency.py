@@ -1,11 +1,3 @@
-'''
-@Author: your name
-@Date: 2020-07-18 16:10:51
-@LastEditTime: 2020-07-20 16:11:32
-@LastEditors: Please set LastEditors
-@Description: In User Settings Edit
-@FilePath: \SR\silency.py
-'''
 import numpy as np
 from scipy import stats
 from .utils import marge_series, series_filter
