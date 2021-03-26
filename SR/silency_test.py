@@ -1,12 +1,3 @@
-'''
-@Author: your name
-@Date: 2020-07-18 17:21:39
-@LastEditTime: 2020-07-18 18:09:35
-@LastEditors: Please set LastEditors
-@Description: In User Settings Edit
-@FilePath: \SR\silency_test.py
-'''
-
 import pytest 
 from spectral_residual import Silency
 from srdata import data, score_normal
