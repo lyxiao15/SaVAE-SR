@@ -19,4 +19,5 @@ if __name__=="__main__":
     pred = np.array([1.0 if sr[i] > threshold else 0.0 for i in range(0, len(sr))])
 
     df.loc[:,"pred"] = pred
-    df.to_csv(save_path, index=None)
+    df1 = df[df.label<2.0] # remove missing values
+    df1.to_csv(save_path, index=None)
