@@ -6,5 +6,5 @@ A PyTorch implementation of our paper "Self-adversarial Variational Autoencoder 
 - PyTorch 1.5.1
 
 ## Run
-python generate_label.py for generating labels
+python generate_label.py for generating labels \\
 python main.py for training model and testing 
